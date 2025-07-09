@@ -23,7 +23,7 @@ def create_invoice_pdf(company_details, customer_details, invoice_items_df, gran
     class PDFWithBackground(FPDF):
         def header(self):
             # Apply the background image on every page
-            self.image("pdfbg3.jpg", x=0, y=0, w=210, h=297)
+            self.image("pdfbg6.jpg", x=0, y=0, w=210, h=297)
 
     pdf = PDFWithBackground()
     pdf.add_page()
