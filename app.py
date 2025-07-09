@@ -154,7 +154,7 @@ st.divider()
 st.header(":rainbow[Company Details]",divider="rainbow")
 company_name = st.text_input("Company Name","SAMARTH TRADERS" )
 company_address = st.text_area("Company Address", "\n\n Dealer of All Types of Plumbing \n\n A.P.V.C,C.P.V.C,P.V.C,S.W.R & C.P. Fittings \n\n Nivara Models building.Pinguli Titha,Pinguli \n\n Nerur road ,Tal.-Kudal,Dist.-Sindhudurg,Maharashtra-416520")
-company_phone = st.text_input("Company Phone", "+91 9421423946")
+company_phone = st.text_input("Company Phone", "+91 ")
 company_email = st.text_input("Company Email", "")
 company_gstin = st.text_input("Company GSTIN (Optional)", "")
 
